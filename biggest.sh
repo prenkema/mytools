@@ -1,6 +1,7 @@
 #/!bin/bash
 # command to find the biggest files (top 20)
-# added a comment
+
+# added a changed comment
 # Make sure only root can run our script
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2
